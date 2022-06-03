@@ -14,7 +14,7 @@ variables:
   dockerRegistryServiceConnection: 'b2b875e6-8557-4ae2-a224-abf97377d6ac'
   imageRepository: 'myimage'
   containerRegistry: 'myappreg.azurecr.io'
-  dockerfilePath: '**/Dockerfile'
+  dockerfilePath: '**/helloworld-jdk-9-base.Dockerfile'
   tag: '$(Build.BuildId)'
   imagePullSecret: 'myappreg18991289-auth'
 
